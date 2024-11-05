@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7159763277089365879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2935865599427194171}
+  - component: {fileID: 3875619116197552420}
+  - component: {fileID: 4259878332923715307}
+  - component: {fileID: 6219460023422376988}
+  - component: {fileID: 2596141639364882749}
+  - component: {fileID: 4699569596385568801}
+  m_Layer: 0
+  m_Name: Ability_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2935865599427194171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3875619116197552420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5c01e4283032042be5925f0df6b2d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4259878332923715307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0084c4b99b24eba40b9806bfda50745c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAbilityStartedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEndedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEnabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _data: {fileID: 11400000, guid: e57b07d7edff35546a09e8b6bf076db5, type: 2}
+--- !u!114 &6219460023422376988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4516984208a8b6c49a73071c67d752b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAbilityStartedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEndedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEnabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _data: {fileID: 11400000, guid: d16b941d127019a42855594518832ba1, type: 2}
+--- !u!114 &2596141639364882749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3c9da73d167fd4284f772c307222b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAbilityStartedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEndedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEnabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _data: {fileID: 11400000, guid: c6711cd178a283f4d9c35c63c1f4bd74, type: 2}
+--- !u!114 &4699569596385568801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159763277089365879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10e24b1d2adc2f4c829d320756bfdf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAbilityStartedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEndedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAbilityEnabledEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _data: {fileID: 11400000, guid: f72829d149ce3aa4496c02c0d5abe7a9, type: 2}
